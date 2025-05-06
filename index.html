@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        th, td{
+            border: 1px solid black;
+        }
+
+
+        tfoot{
+            background-color: cyan;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+
+    <h1>Tabelas</h1>
+
+
+    <h3>Exemplo antigo de 2022:</h3>
+    <p>th - table header (cabeçalho)
+        tr - table row (linha)
+        td - table data (dados)
+    </p>
+
+    <p>EMMET:	table>tr*3>td*5    </p>
+
+    <table>
+        <tr>
+                <th>Roupas</th>
+                <th>Cor</th>
+                <th>Tamanho</th>
+                <th>Preço</th>
+                <th>Disponibilidade</th>
+        </tr>
+
+        <tr>
+            <td>Camiseta</td>
+            <td>Preta</td>
+            <td>M</td>
+            <td>R$70,00</td>
+            <td>Em estoque</td>
+        </tr>
+
+        <tr>
+            <td>Calça Jeans</td>
+            <td>Azul</td>
+            <td>P</td>
+            <td>R$160,00</td>
+            <td>Esgotado</td>
+        </tr>
+
+    </table>
+
+
+
+
+    <h3>Aula atualizada de 2024:</h3>
+
+    
+
+    <table>
+        <tr>
+            <th>Deus(a)</th>
+            <th>Cor</th>
+            <th>Elemento</th>
+            <th>Dia da semana</th>
+        </tr>
+        <tr>
+            <td>Lilith</td>
+            <td>Vermelho</td>
+            <td>Ar</td>
+            <td>Segunda-feira</td>
+        </tr>
+        <tr>
+            <td>Mercúrio</td>
+            <td>Amarelo</td>
+            <td>Ar</td>
+            <td>Quarta-feira</td>
+        </tr>
+    </table>
+
+
+    <table>
+        <tr>
+            <th>Pedra</th>
+            <th>Função</th>
+            <th>Cor</th>
+        </tr>
+
+        <tr>
+            <td>Citrino</td>
+            <td>Prosperidade</td>
+            <td>Amarelo</td>
+        </tr>
+
+        <tr>
+            <td>Granada</td>
+            <td>Energia sexual</td>
+            <td>Vermelho escuro</td>
+        </tr>
+
+        <tr>
+            <td>Labradorita</td>
+            <td>Intuição</td>
+            <td>Azul escuro</td>
+        </tr>
+        <tr>
+            <td>Ametista</td>
+            <td>Transmutação</td>
+            <td>Lilás</td>
+        </tr>
+        <tr>
+            <td>Cristal</td>
+            <td>Tudo</td>
+            <td>Transparente</td>
+        </tr>
+    </table>
+
+
+        <h3>Novo jeito abaixo usando "thead" e "tbody":</h3>
+
+        <p>Mais informações no site <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/tfoot" target="_blank"   >Developer</a></p>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Produto</th>  
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                    <th>Black Friday</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>Produto 1</td>
+                    <td>1</td>
+                    <td>10$</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Produto 2</td>
+                    <td>2</td>
+                    <td>20$</td>
+                    <td>Não</td>
+                </tr>
+                <tr>
+                    <td>Produto 3</td>
+                    <td>3</td>
+                    <td>30$</td>
+                    <td>Sim</td>
+                </tr>
+                <tr>
+                    <td>Produto 4</td>
+                    <td>4</td>
+                    <td>40$</td>
+                    <td>Não</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+               <tr>
+                <td colspan="3">Total</td>
+                <td>100$</td>
+               </tr>
+            </tfoot>
+
+
+        </table>
+
+
+
+
+
+
+    
+</body>
+</html>
